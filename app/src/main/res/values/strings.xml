@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="location_per_req_title">Location Permissions Required</string>
+    <string name="req_loc_per_sett">In order to continue, please open app settings and enable location from permissions</string>
+    <string name="app_settings">App Settings</string>
+    <string name="city_name">City Name</string>
+    <string name="search">Search</string>
+    <string name="err_city_req">City name required</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="city_not_found">City not found</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="weather">Weather</string>
+</resources>
