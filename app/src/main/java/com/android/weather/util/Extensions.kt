@@ -10,10 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 
 
-fun EditText.isValidEmail(): Boolean {
-    return (!TextUtils.isEmpty(text) && Patterns.EMAIL_ADDRESS.matcher(text).matches())
-}
-
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 fun AppCompatActivity.showToast(message: String, length: Int = Toast.LENGTH_SHORT) {
